@@ -1,0 +1,35 @@
+.app .row img {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.app .row > div {
+  overflow: hidden;
+}
+
+
+.app .row img:hover {
+  transform: scale(1.15);
+}
+
+i {
+  position: absolute;
+  cursor: pointer;
+}
+
+i#close {
+  top: -20px;
+  right: 0;
+}
+
+i#left {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+i#right {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
